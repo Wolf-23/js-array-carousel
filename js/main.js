@@ -8,7 +8,7 @@ const myArray = ["img/01.jpg",
 let imgAttiva = 0;
 
 let itemsDom = document.querySelector('.items');
-let imgWrapperDom = document.querySelector('.imgWrapper')
+let imgWrapperDom = document.querySelector('.imgWrapper_container')
 
 for ( x = 0; x < myArray.length; x++) {
     itemsDom.innerHTML += ` <div class="item">
